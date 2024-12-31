@@ -1,0 +1,31 @@
+body {
+    @apply bg-gray-100 flex items-center justify-center h-screen;
+}
+
+#game-board {
+    @apply grid grid-cols-3 gap-2;
+}
+
+.cell {
+    @apply w-24 h-24 flex items-center justify-center text-4xl font-bold text-white rounded-lg cursor-pointer transition duration-200;
+}
+
+.cell:hover {
+    @apply bg-gray-300;
+}
+
+.cell.x {
+    @apply bg-blue-500;
+}
+
+.cell.o {
+    @apply bg-red-500;
+}
+
+#status {
+    @apply text-xl mb-4;
+}
+
+#reset {
+    @apply mt-4 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600;
+}

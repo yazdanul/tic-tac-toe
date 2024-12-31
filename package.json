@@ -1,0 +1,19 @@
+{
+  "name": "tic-tac-toe-game",
+  "version": "1.0.0",
+  "description": "A simple Tic Tac Toe game built with jQuery and Tailwind CSS.",
+  "main": "src/js/app.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "tailwindcss build src/css/styles.css -o src/css/output.css"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
